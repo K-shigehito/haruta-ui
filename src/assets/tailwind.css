@@ -3,6 +3,16 @@
 @layer base {
   * {
     @apply box-border;
+    @apply max-w-[40em];
+  }
+  html,
+  body,
+  div,
+  header,
+  nav,
+  main,
+  footer {
+    @apply max-w-none;
   }
 }
 
